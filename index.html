@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSIGNMENTS</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            width: 50%;
+            margin: 40px auto;
+            background-color: rgba(188, 188, 188, 0.51);
+            min-height: 100vh;
+            height: auto;
+            padding-top: 10px;
+            border-radius: 10px;
+            padding-bottom: 50px;
+        }
+
+        .title{
+            text-align: center;
+            font-size: 32px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        ul{
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        ul li:hover{
+            transform: scale(1.02);
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+        ul li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            object-position: top;
+        }
+
+        .title{
+         text-transform: uppercase;
+         font-size: 20px;
+         padding: 5px;
+         padding-top: 10px;
+         font-weight: bold;
+        }
+
+        ul li:hover .title{
+            color: purple;
+        }
+
+        a{
+        
+            text-decoration: none;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <p class="title">My CSS Assignment Links</p>
+        <ul>
+            <li>
+                <a href="https://an-otter-essay-marv.netlify.app">
+                    <img src="images/an-otter.png" alt="an-otter-essay"/>
+                    <p class="title">An Otter Essay</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://for-individual-marv.netlify.app">
+                    <img src="images/for_individual.png" alt="for-individual"/>
+                    <p class="title">For Individual Registration Form</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://huckleberry-marv.netlify.app">
+                    <img src="images/huckleberry.png" alt="huckleberry"/>
+                    <p class="title">Huckleberry</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://novus-watch-marv.netlify.app">
+                    <img src="images/novus-watch.png" alt="novus-watch"/>
+                    <p class="title">Novus Watch</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://wp-pusher-marv.netlify.app">
+                    <img src="images/wp-pusher.png" alt="wp-pusher"/>
+                    <p class="title">WP Pusher</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://scissors-marv.netlify.app">
+                    <img src="images/scissor.png" alt="Scissor"/>
+                    <p class="title">Scissor</p>
+                </a>
+            </li>
+        </ul>
+    </main>
+    
+</body>
+</html>
